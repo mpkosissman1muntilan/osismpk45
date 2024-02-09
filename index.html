@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="side-links">
+            <div class="nav-container">
+                <ul class="nav">
+                  <li class="active">
+                    <a href="#">
+                      <span class="fa-solid fa-house"></span>
+                      <span class="text">Home</span>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="#">
+                      <span class="fa-solid fa-user"></span>
+                      <span class="text">About</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                       <span class="icon-play"></span>
+                        <span class="text">Portfolio</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                       <span class="icon-cogs"></span>
+                        <span class="text">Services</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa icon-briefcase"></span>
+                        <span class="text">testmonials</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                       <span class="icon-calendar"></span>
+                        <span class="text">Contact us</span>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </div> 
+        <div class="section section-1"> 
+            <div class="navbar">
+                <div class="logo-container">
+                    <div class="logo-sma">
+                        <img src="media/sampong.png" class="obj" data-aos-duration="2000" alt="">
+                    </div>
+                    <div class="logo-osis-mpk">
+                        <img src="media/osis.png" class="nav-image osis" alt="">
+                        <img src="media/mpk.png" class="nav-image" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="header-title">
+                    <span>OSIS MPK 45</span>
+                </div>
+                <div class="nav-links">
+                    <ul class="links-list">
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-title">
+                <h1>NAWASENA ARINDAMA</h1>
+                <p>OSIS / MPK SMAN 1 MUNTILAN</p>
+            </div>
+        </div>
+        <div class="section section-2">
+            <div class="frame-container">
+                <div class="youtube-frame">
+                    <div class="frame mars">
+                        <h3>MARS</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ceyqw0aaTPk?si=FM3AyGuQfaQX79n9" title="Mars SMAN 1 Muntilan" frameborder="0" allow="accelerometer; autoplay; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="frame anthem">
+                        <h3>ANTHEM</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SiI6EFiOc9M?si=wE8seqLo06qH6HnW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-3">
+            <div class="form">
+                <h1>Aspirasi</h1>
+                <h2>Ungkapkanlah seluruh aspirasimu, tetapi jangan lupa gunakan bahasa yang <span>sopan</span> dan <span>beretika</span></h2>
+                <form action="https://formsubmit.co/mpkosissman1muntilan@gmail.com" method="POST">
+                    <div class="textarea">
+                        <textarea name="Aspirasi" id="" cols="30" rows="6" placeholder="Salurkan aspirasimu disini!" required></textarea>
+                        <button type="submit">Kirim</button>
+                    </div>
+                </form> 
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/41b9344197.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+        // Remove the transition class
+        $('li').click(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+    </script>
+</body>
+</html>
