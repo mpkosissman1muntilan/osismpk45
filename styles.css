@@ -84,6 +84,7 @@ body {
     justify-content: center;
     overflow-x: hidden;
     font-family: 'Anton', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 .container {
     height: auto;
@@ -235,12 +236,25 @@ body {
     display: inline-block;
     color: transparent;
   }
+  img{
+    position: absolute;
+    margin: 1em 0 0 0;
+    width: 1.2em;
+  }
+  .logompk{
+    margin: 1em 0 0 -0.1em ;
+    width:1.5em;
+  }
   li:hover{
     .text{
         font-size: 18px;
         width:50%;
-        margin-left: 50px;
+        height: 50px;
+        margin-left: 30%;
         display: inline-block;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
         color: #ffffff;
     }
     a{
@@ -385,6 +399,15 @@ body {
     display: grid;
     place-items: center;
     background-color: transparent;
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    background-image: url(media/ldks.JPG);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0, 0.6);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
     .form{
         height: 28rem;
         width: 24rem;
@@ -398,6 +421,7 @@ body {
         font-weight: var(--font-semi-bold);
         color: black;
         margin-top: -1rem;
+        text-align: center;
     }
     h2{
         font-size: 12px;
