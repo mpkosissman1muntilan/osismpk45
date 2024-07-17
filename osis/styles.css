@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'alternate';
+    src: url('../media/font/alternategotno3d-webfont.woff2') format('woff2'),
+         url('../media/font/alternategotno3d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'berlin';
+    src: url('../media/font/berlin_sans_fb_demi_bold-webfont.woff2') format('woff2'),
+         url('../media/font/berlin_sans_fb_demi_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'itc_italic';
+    src: url('../media/font/benguiatstd-bookitalic-webfont.woff2') format('woff2'),
+         url('../media/font/benguiatstd-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'itc_medium';
+    src: url('../media/font/benguiatstd-medium-webfont.woff2') format('woff2'),
+         url('../media/font/benguiatstd-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'itc';
+    src: url('../media/font/benguiatstd-book-webfont.woff2') format('woff2'),
+         url('../media/font/benguiatstd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'itc_bold';
+    src: url('../media/font/benguiatstd-bold-webfont.woff2') format('woff2'),
+         url('../media/font/benguiatstd-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    /*================================ font-weight  ================================*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    
+    font-family: 'Anton', Arial, Helvetica, sans-serif !important;
+    scroll-behavior: smooth;
+}
+.container{
+    height: auto;
+    width: 100%;
+    
+}
+nav{
+    li,a{
+        color:white !important;
+        font-family: 'Anton',Arial, Helvetica, sans-serif;
+        font-weight: 520;
+    }
+    li:hover a{
+        color:#e6c255 !important;
+    }
+    .navbar-header{
+        img{
+            width:7.5rem;
+            height:auto;
+        }
+    }
+}
+.section{
+    .card,li,button{
+        color: whitesmoke !important;
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
+.section-3{
+    h3{
+        color: yellow !important;
+    }
+}
+
+
+
+
+
+
+.cf:before,
+ .cf:after {
+    .section1  content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
